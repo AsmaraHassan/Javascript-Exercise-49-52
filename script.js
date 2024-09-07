@@ -1,7 +1,7 @@
 const questions = [
     {
-        question: "Which planet is closest to the Sun?",
-        choices: ["Venus", "Mars", "Mercury", "Earth"],
+        question: "Which company developed the AI program AlphaGo that defeated a human Go champion?",
+        choices: ["Microsoft", "DeepMind (Google)", "IBM", "Amazon"],
         correctAnswer: 2
     },
     {

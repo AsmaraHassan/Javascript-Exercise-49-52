@@ -3,42 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ClassTask</title>
-    <link rel="stylesheet" href="./style.css">
+    <title> Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>         
-<div class="quiz-container">
-                    <h1>Quiz Game</h1>
-                    <div id="question-container">
-                        <p id="question-1">Which of the following is an example of an AI technique?</p>
-                        <div class="button-container">
-                            <button class="answer-button" data-answer="0">Neural Networks</button>
-                            <button class="answer-button" data-answer="1">Decision Trees</button>
-                            <button class="answer-button" data-answer="2">Linear Regression</button>
-                            <button class="answer-button" data-answer="3">All of the above</button>
-                        </div>
-                  
-                </div> 
-                  
-                <div id="score-container">
-                    <p>Score: <span id="score"></span></p>
-                </div>
-                <button id="next-question" >Next Question</button>
-            </div>
-       
-    <script src="script.js"></script> 
-<!-- 
-
-    <div>
-        <p id="question-2">Which of the following is NOT a type of AI?</p>
-        <div class="button-container">
-            <button class="answer-button" data-answer="0">Week AI</button>
-            <button class="answer-button" data-answer="1">Strong AI</button>
-            <button class="answer-button" data-answer="2">General AI</button>
-            <button class="answer-button" data-answer="3">Soft AI</button>
-        </div> -->
-
-
-
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Game</h1>
+        <div id="question-area"></div>
+        <div id="choices">
+            <button id="choice1" class="choice-btn"></button>
+            <button id="choice2" class="choice-btn"></button>
+            <button id="choice3" class="choice-btn"></button>
+            <button id="choice4" class="choice-btn"></button>
+        </div>
+        <div id="score">Score: 0</div>
+        <button id="next-question">Next Question</button>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

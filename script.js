@@ -56,19 +56,3 @@ choiceButtons.forEach((button, index) => {
     });
 });
 
-// Event listener for the Next Question button
-nextButton.addEventListener('click', () => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        loadQuestion();
-        feedback.textContent = ""; // Clear feedback
-        nextButton.style.display = 'none'; // Hide Next Question button
-    } else {
-        questionText.textContent = `Quiz finished! Your final score: ${score}`;
-        document.getElementById('answers-box').style.display = 'none';
-        nextButton.style.display = 'none';
-    }
-});
-
-// Initial call to load the first question
-loadQuestion();

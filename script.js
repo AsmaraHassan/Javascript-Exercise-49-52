@@ -1,4 +1,4 @@
-const questions = [
+var questions = [
     {
         question: "Which company developed the AI program AlphaGo that defeated a human Go champion?",
         choices: ["Microsoft", "DeepMind (Google)", "IBM", "Amazon"],
@@ -18,18 +18,18 @@ const questions = [
 ];
 
 // HTML elements
-const questionText = document.getElementById('question-box');
-const choiceButtons = document.querySelectorAll('.answer-btn');
-const nextButton = document.getElementById('next-btn');
-const feedback = document.getElementById('feedback');
-const scoreDisplay = document.getElementById('score-box');
+var questionText = document.getElementById('question-box');
+var choiceButtons = document.querySelectorAll('.answer-btn');
+var nextButton = document.getElementById('next-btn');
+var feedback = document.getElementById('feedback');
+var scoreDisplay = document.getElementById('score-box');
 
-let currentQuestionIndex = 0;
-let score = 0;
+var currentQuestionIndex = 0;
+var score = 0;
 
 // Load the current question and update the buttons with choices
 function loadQuestion() {
-    const currentQuestion = questions[currentQuestionIndex];
+    var currentQuestion = questions[currentQuestionIndex];
     questionText.textContent = currentQuestion.question;
     choiceButtons.forEach((button, index) => {
         button.textContent = currentQuestion.choices[index];
@@ -38,7 +38,7 @@ function loadQuestion() {
 
 // Check the user's answer and provide feedback
 function checkAnswer(selectedChoice) {
-    const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+    var correctAnswer = questions[currentQuestionIndex].correctAnswer;
     if (selectedChoice == correctAnswer) {
         score++;
         feedback.textContent = "Correct!";

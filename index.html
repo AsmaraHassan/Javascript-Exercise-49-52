@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Quiz Game</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Interactive Quiz Game</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Quiz Game</h1>
-        <div id="question-area"></div>
-        <div id="choices">
-            <button id="choice1" class="choice-btn"></button>
-            <button id="choice2" class="choice-btn"></button>
-            <button id="choice3" class="choice-btn"></button>
-            <button id="choice4" class="choice-btn"></button>
+    <div class="quiz-box">
+        <h2>Interactive Quiz</h2>
+        <div id="question-box"></div>
+        <div id="answers-box">
+            <button class="answer-btn" data-choice="0"></button>
+            <button class="answer-btn" data-choice="1"></button>
+            <button class="answer-btn" data-choice="2"></button>
+            <button class="answer-btn" data-choice="3"></button>
         </div>
-        <div id="score">Score: 0</div>
-        <button id="next-question">Next Question</button>
-        <div id="message"></div>
+        <div id="score-box">Score: 0</div>
+        <button id="next-btn">Next Question</button>
+        <div id="feedback"></div>
     </div>
     <script src="script.js"></script>
 </body>

@@ -11,7 +11,7 @@ const questions = [
         correctAnswer: 3
     },
     {
-        question: "What is the largest ocean?",
+        question: "Which of the following is a key challenge in AI development?",
         choices: ["Indian", "Pacific", "Atlantic", "Arctic"],
         correctAnswer: 1
     }

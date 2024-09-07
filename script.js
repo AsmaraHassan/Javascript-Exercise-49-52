@@ -4,10 +4,11 @@ const questions = [
         choices: ["Microsoft", "DeepMind (Google)", "IBM", "Amazon"],
         correctAnswer: 2
     },
+    
     {
-        question: "What is the capital of Japan?",
-        choices: ["Seoul", "Tokyo", "Beijing", "Bangkok"],
-        correctAnswer: 1
+        question: "In AI, which learning paradigm involves an agent learning by interacting with its environment and receiving rewards or penalties?",
+        choices: ["Supervised Learning", "Reinforcement Learning", "Unsupervised Learning", "Deep Learning"],
+        correctAnswer: 3
     },
     {
         question: "What is the largest ocean?",

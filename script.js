@@ -12,8 +12,8 @@ const questions = [
     },
     {
         question: "Which of the following is a key challenge in AI development?",
-        choices: ["Indian", "Pacific", "Atlantic", "Arctic"],
-        correctAnswer: 1
+        choices: ["Data availability and quality", "Computing power", "Ethical concerns", "All of the above"],
+        correctAnswer: 4
     }
 ];
 

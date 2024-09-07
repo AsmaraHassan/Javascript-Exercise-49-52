@@ -1,5 +1,6 @@
 body {
-    background-image: url("./images/cb7c11ce9bebcfedce65f30a14a23173.jpg");
+    background-image: url("./images/0536c5cfd8061fd8457756fe1092a07b.jpg");
+    background-size: cover;
     background-color: #f0f0f0;
     font-family: 'Verdana', sans-serif;
     display: flex;
@@ -10,7 +11,7 @@ body {
 }
 
 .quiz-box {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);

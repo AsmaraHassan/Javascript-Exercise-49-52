@@ -22,8 +22,7 @@ button.choice-btn {
     border-radius: 5px;
     cursor: pointer;
 } 
-
-/* button.choice-btn:hover {
+button.choice-btn:hover {
     background-color: #0056b3;
 }
 
@@ -33,4 +32,4 @@ button.choice-btn {
 
 #next-question {
     margin-top: 20px;
-}  */
+}  

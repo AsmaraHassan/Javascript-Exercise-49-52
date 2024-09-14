@@ -93,7 +93,7 @@ function loadQuestion() {
         button.textContent = currentQuestion.choices[index];
     });
     feedback.textContent = ""; // Clear feedback
-    nextButton.style.display = 'none'; // Hide Next button initially
+    nextButton.style.display = 'none'; //Hide Next button initially
 }
 
 // Check the user's answer and provide feedback
